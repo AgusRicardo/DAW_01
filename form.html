@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulario DAW</h1>
+  
+  <section>
+    <form action="" method="get">
+        <div>
+            <label for="nameId">Nombre:</label>
+            <input type="text" name="name" id="nameId" autocomplete="off">
+        </div>
+        <div>
+            <label for="lastnameId">Apellido:</label>
+            <input type="text" name="lastname" id="lastnameId" autocomplete="off">
+        </div>
+        <div>
+            <label for="dateId">Fecha de nacimiento:</label>
+            <input type="date" name="date" id="dateId">
+        </div>
+        <div>
+            <label for="emailId">Email:</label>
+            <input type="email" name="email" id="emailId" autocomplete="off">
+        </div>
+        <div>
+            <label for="sexId">Sexo:</label>
+            <select id="sexId" name="sexId">
+                <option value="female">Masculino</option>
+                <option value="male">Femenino</option>
+            </select>
+        </div>
+        <div>
+            <label for="messageId">Mensaje:</label>
+            <textarea id="messageId" name="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="termsId">Acepto términos y condiciones</label>
+            <input type="checkbox" name="terms" id="termsId" required>
+        </div>
+        <div>
+            <input type="submit" id="submitId">
+            <input type="reset" id="resetId">
+          </div>
+        </form>
+  </section>
+  
+        <div>
+          <a href="./index.html">
+            <button id="cancelar">Cancelar</button>
+          </a>
+        </div>
+</body>
+</html>
