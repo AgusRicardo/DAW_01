@@ -10,3 +10,6 @@ Crear el repo y hacer una pr
 Consiste en copiar una noticia de otra web, respetando las etiquetas correspondientes de html
 
 La noticia utilizada para la actividad es la siguiente: https://www.rosario3.com/informaciongeneral/Un-hacker-puso-a-la-venta-una-serie-de-archivos-con-millones-de-licencias-de-conducir-entre-ellas-las-de-Javier-Milei-y-otros-funcionarios-20240416-0051.html
+
+# ACTIVIDAD 3
+Consiste en realizar un formulario utilizando unicamente html y las etiquetas dadas en clase
