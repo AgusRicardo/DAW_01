@@ -13,3 +13,6 @@ La noticia utilizada para la actividad es la siguiente: https://www.rosario3.com
 
 # ACTIVIDAD 3
 Consiste en realizar un formulario utilizando unicamente html y las etiquetas dadas en clase
+
+# ACTIVIDAD 4
+Consiste en implementarle al proyecto los archivos de normalize.css y style.css agregando los estilos correspondientes para simular la noticia utilizada en la actividad 2
