@@ -110,3 +110,127 @@ article{
   color: #343434;
   margin-bottom: 30px;
 }
+/* Desktop */
+@media screen and (min-width: 1280px) and (max-width: 1440px){ 
+  body {
+    background-color: yellow !important;
+  }
+}
+/* Notebook */
+@media screen and (min-width: 1024px) and (max-width: 1280px){ 
+  body {
+    background-color: green !important;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 800px) and (max-width: 1024px){ 
+  body {
+    background-color: blue !important;
+  }
+  aside{
+    display: none;
+  }
+  .navbarTitulo{
+    font-size: 13px;
+  }
+  .notaContainer{
+    padding-right: 0px;
+  }
+  .imgNoticia{
+    max-width: 650px;
+    height: auto;
+  }
+}
+/* Mobile/Tablet */
+@media screen and (min-width: 481px) and (max-width: 800px){ 
+  body {
+    background-color: purple !important;
+  }
+  aside{
+    display: none;
+  }
+  .navbarTitulo{
+    display: none;
+  }
+  .logoBusqueda{
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/bars-solid.svg');
+    background-size: cover;
+  }
+  .navbarContainer{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .logoBusquedaImg{
+    display: none;
+  }
+  .navbarTitulo{
+    font-size: 10px;
+  }
+  .notaContainer{
+    padding-right: 0px;
+  }
+  .noticiaTweet{
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+  }
+  .notaTitulo{
+    width: 100%;
+    font-size: 40px;
+    line-height: 50px;
+    word-wrap: break-word;
+  }
+  .imgNoticia{
+    max-width: 450px;
+    height: auto;
+  }
+}
+/* Mobile */	
+@media screen and (min-width: 0px) and (max-width: 481px){ 
+  body {
+    background-color: grey !important;
+  }
+  aside{
+    display: none;
+  }
+  .navbarTitulo{
+    display: none;
+  }
+  .logoBusqueda{
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/bars-solid.svg');
+    background-size: cover;
+  }
+  .navbarContainer{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .logoBusquedaImg{
+    display: none;
+  }
+  .notaTitulo{
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+    word-wrap: break-word;
+  }
+  .noticiaTweet{
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+  }
+  .imgNoticia{
+    max-width: 350px;
+    height: auto;
+  }
+  .notaContainer{
+    padding-right: 0px;
+  }
+  .noticiaTweet{
+    display: flex;
+    justify-content: center;
+  }
+}
