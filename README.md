@@ -22,3 +22,9 @@ Implementar media querys y github pages
 
 ## ACTIVIDAD 6:
 Agregar Flexbox al proyecto
+
+## ACTIVIDAD 7:
+Parcial
+
+## ACTIVIDAD 8:
+Comienzos con JavaScript
