@@ -8,8 +8,8 @@ for (var i = 0; i < palabras.length; i++) {
 
 // B)
 for (var i = 0; i < palabras.length; i++) {
-  var palabraModificada = palabras[i].charAt(0).toUpperCase() + palabras[i].slice(1);
-  alert(palabraModificada);
+    var palabraModificada = palabras[i].charAt(0).toUpperCase() + palabras[i].slice(1);
+    alert(palabraModificada);
 }
 
 // C)

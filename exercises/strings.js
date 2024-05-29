@@ -3,27 +3,27 @@
 // A)
 var stringA = "Hola profes";
 var stringAMayuscula = stringA.toUpperCase();
-console.log(stringAMayuscula);
+//console.log(stringAMayuscula);
 
 // B)
 var stringB = "Hola profes2";
 var primerosCinco = stringB.substring(0, 5);
-console.log(primerosCinco);
+//console.log(primerosCinco);
 
 // C)
 var stringC = "Hola profes3";
 var ultimosTres = stringC.substring(stringC.length - 3);
-console.log(ultimosTres);
+//console.log(ultimosTres);
 
 // D)
 var stringD = "Hola profes4";
 var primeraMayuscula = stringD.substring(0, 1).toUpperCase() + stringD.substring(1).toLowerCase();
-console.log(primeraMayuscula);
+//console.log(primeraMayuscula);
 
 // E)
 var stringE = "Hola profes5";
 var posicionEspacio = stringE.indexOf(' ');
-console.log(posicionEspacio);
+//console.log(posicionEspacio);
 
 // F)
 var stringF = "Holaaaaa profesores";
@@ -35,4 +35,4 @@ var primeraPalabraFormato = primeraPalabra.substring(0, 1).toUpperCase() + prime
 var segundaPalabraFormato = segundaPalabra.substring(0, 1).toUpperCase() + segundaPalabra.substring(1).toLowerCase();
 
 var resultadoFinal = primeraPalabraFormato + " " + segundaPalabraFormato;
-console.log(resultadoFinal);
+//console.log(resultadoFinal);
