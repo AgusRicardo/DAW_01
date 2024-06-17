@@ -11,7 +11,7 @@ console.log(resultado);
 // B)
 function suma(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-      alert("Uno de los parametros no es un numero");
+      //alert("Uno de los parametros no es un numero");
       return NaN;
   }
   return a + b;
@@ -31,15 +31,15 @@ console.log(validateInteger(5.5));
 // D)
 function suma(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-      alert("Uno de los parametros no es un numero");
+      //alert("Uno de los parametros no es un numero");
       return NaN;
   }
   if (!validateInteger(a)) {
-      alert("El primer numero no es un entero, se convertira a entero");
+      //alert("El primer numero no es un entero, se convertira a entero");
       a = Math.round(a);
   }
   if (!validateInteger(b)) {
-      alert("El segundo numero no es un entero, se convertira a entero");
+      //alert("El segundo numero no es un entero, se convertira a entero");
       b = Math.round(b);
   }
   return a + b;
@@ -55,7 +55,7 @@ function validateInteger(num) {
 
 function validarYConvertirEntero(num) {
   if (!validateInteger(num)) {
-      alert("El numero " + num + " no es un entero, se convertira a entero");
+      //alert("El numero " + num + " no es un entero, se convertira a entero");
       return Math.round(num);
   }
   return num;
@@ -63,7 +63,7 @@ function validarYConvertirEntero(num) {
 
 function suma(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
-      alert("Uno de los parametros tiene error: no es un numero");
+      //alert("Uno de los parametros tiene error: no es un numero");
       return NaN;
   }
   a = validarYConvertirEntero(a);
