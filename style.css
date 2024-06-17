@@ -140,6 +140,19 @@ article{
     max-width: 650px;
     height: auto;
   }
+  .form-group.small {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.form-group.small:nth-child(2n) {
+    margin-right: 0;
+}
+
+.form-group.full-width {
+    clear: both;
+}
 }
 /* Mobile/Tablet */
 @media screen and (min-width: 481px) and (max-width: 800px){ 
@@ -233,4 +246,32 @@ article{
     display: flex;
     justify-content: center;
   }
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.form-group.small {
+  display: inline-block;
+  width: 48%;
+}
+
+.form-group.full-width {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
 }
