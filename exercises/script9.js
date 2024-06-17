@@ -92,7 +92,7 @@ window.onload = function() {
       });
 
       if (hasError) {
-          alert('Please fix the errors in the form.');
+          alert('Por favor, corrija los errores en el formulario.');
       } else {
           var formData = new FormData(form);
           var data = {};
@@ -100,7 +100,7 @@ window.onload = function() {
               data[key] = value;
           });
           localStorage.setItem('subscriptionData', JSON.stringify(data));
-          alert('Form submitted successfully: ' + JSON.stringify(data));
+          alert('Formulario enviado exitosamente: ' + JSON.stringify(data));
       }
   }
     
