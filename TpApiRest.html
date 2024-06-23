@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="./TpApiRest.css">
+</head>
+<body>
+  <h1>Rick and Morty Personajes</h1>
+  <button id="getAllCharacters">Get All Personajes</button>
+  
+  <h2>Filtrar Personaje</h2>
+  <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+  </div>
+  <div>
+      <label for="status">Status:</label>
+      <input type="text" id="status">
+  </div>
+  <div>
+      <label for="species">Species:</label>
+      <input type="text" id="species">
+  </div>
+  <div>
+      <label for="type">Type:</label>
+      <input type="text" id="type">
+  </div>
+  <div>
+      <label for="gender">Gender:</label>
+      <input type="text" id="gender">
+  </div>
+  <button id="filterCharacters">Filtrar Personaje</button>
+  <button id="clearFilters">Limpiar Filtros</button>
+
+  <h2>Lista de Personajes</h2>
+  <div id="charactersList"></div>
+
+  <script src="./exercises/TpApiRest.js"></script>
+</body>
+</html>
